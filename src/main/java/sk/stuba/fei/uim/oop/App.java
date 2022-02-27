@@ -2,7 +2,8 @@ package sk.stuba.fei.uim.oop;
 
 public class App {
     public static void main(String[] args) {
-      for (int cislo = 1;cislo<4;cislo++) {
+        int cislo=1;
+      while (cislo<4) {
           switch (cislo) {
               case 1:
                   System.out.println("cislo je jedna");
@@ -14,7 +15,7 @@ public class App {
                   System.out.println("cislo je ine");
 
           }
-
+        cislo++;
       }
     }
 }
